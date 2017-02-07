@@ -901,8 +901,11 @@ object {
 
 /*****************mes rajouts*************/
 #masthead {
-    background-color: red;
-    height: 200px;
+    background-color: #21759b;
+}
+
+#masthead img {
+    width: 1600px;
 }
 
 body {
@@ -981,6 +984,33 @@ nav ul {
     margin: auto;
 }
 
+#site-navigation {
+    background-color: #21759b;
+    height: 60px;
+    margin-bottom: 2%;
+}
+
+#site-navigation a {
+    color: white;
+}
+
+#site-navigation li {
+    line-height: 60px;
+    border-right: 1px solid white;
+    width: 14%;
+    margin: auto;
+    text-align: center;
+
+}
+
+a:hover {
+    color: #444;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
 /*******le aside****/
 #secondary ul {
     margin-left: 0;
@@ -1001,15 +1031,6 @@ article:first-of-type img {
     width: 100%;
 }
 
-/*article:first-of-type p, article:first-of-type h{*/
-/*position: absolute;*/
-/*bottom: 0;*/
-/*color: white;*/
-/*width: 50%;*/
-/*background: rgba(0,0,0,0.5);*/
-/*padding: 12px 0;*/
-/*}*/
-
 article:not(:first-of-type) {
     width: 100%;
     border: 1px solid #21759b;
@@ -1019,11 +1040,11 @@ article:not(:first-of-type) {
 }
 
 article:not(:first-of-type) img {
-    width: 250px;
+    width: 40%;
 }
 
 article:not(:first-of-type) h2 {
-    width: 600px;
+    width: 100%;
     font-size: 16px;
     justify-content: center;
 }

@@ -39,11 +39,13 @@
 			<?php
 			endif; ?>
 		</div><!-- .site-branding -->
+        <img src="<?php header_image();?>" height="<?PHP echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width;?>" alt=""/>
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'isi_mercato' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
+
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content row">
+	<div id="content" class="site-content ">
+        <nav id="site-navigation" class="main-navigation row" role="navigation">
+            <button class="menu-toggle " aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'isi_mercato' ); ?></button>
+            <?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+        </nav><!-- #site-navigation -->
