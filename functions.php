@@ -99,6 +99,7 @@ function isi_mercato_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
+
 add_action( 'widgets_init', 'isi_mercato_widgets_init' );
 
 /**

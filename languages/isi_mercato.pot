@@ -134,7 +134,7 @@ msgstr ""
 #, php-format
 #@ _s
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "Dans cet article : %1$s"
 
 #: inc/template-tags.php:65
 #@ _s
