@@ -9,7 +9,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('col-t-12'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('col-t-12 col-m-12'); ?>>
 	<header class="entry-header">
 		<?php
 		if ( is_single() ) :
@@ -30,7 +30,7 @@
 		<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
-				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'isi_mercato' ), array( 'span' => array( 'class' => array() ) ) ),
+				wp_kses( __( 'Lire la suite %s <span class="meta-nav">&rarr;</span>', 'isi_mercato' ), array( 'span' => array( 'class' => array() ) ) ),
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 

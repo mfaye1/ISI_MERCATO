@@ -39,10 +39,10 @@
 			<?php
 			endif; ?>
 		</div><!-- .site-branding -->
+
         <img src="<?php header_image();?>" height="<?PHP echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width;?>" alt=""/>
 
-
-	</header><!-- #masthead -->
+    </header><!-- #masthead -->
 
 	<div id="content" class="site-content ">
         <nav id="site-navigation" class="main-navigation row" role="navigation">
