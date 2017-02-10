@@ -1180,9 +1180,8 @@ article:not(:first-of-type) h2 {
 
     #site-navigation {
         background-color: #21759b;
-        height: 380px;
-        margin-bottom: 2%;
-        margin-top: -5%;
+        height: 10%;
+
     }
 
     #site-navigation a {
@@ -1191,11 +1190,7 @@ article:not(:first-of-type) h2 {
 
     #site-navigation li {
         display :inline-block;
-        line-height: 50px;
-        border: 2px solid white;
         width: 100%;
-        margin: auto;
-        text-align: center;
     }
     /*--------------------------------------------grille mobile-------------------------------------------*/
     .col-m-1 {

@@ -16,7 +16,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area col-8 col-t-12 col-m-12">
 		<main id="main" class="site-main " role="main">
-<!--            --><?php //if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer') ) : endif; ?>
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer') ) : endif; ?>
 		<?php
 		if ( have_posts() ) :
 
